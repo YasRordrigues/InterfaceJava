@@ -10,6 +10,4 @@ public abstract class Bola implements Arremassavel{
         System.out.println("bola quicando");
     }
 
-    Bola bola = new Futebol();
-        Beisebol beisebol = (Beisebol) bola;
 }
