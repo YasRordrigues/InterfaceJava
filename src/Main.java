@@ -6,8 +6,9 @@ public class Main {
         futebol.arremessar();
         futebol.quicar();
 
-        Beisebol beisebol = new Beisebol();
-        beisebol.arremessar();
-        beisebol.quicar();
+        Baisebol baisebol = new Baisebol();
+        baisebol.arremessar();
+        baisebol.quicar();
+
     }
 }
