@@ -13,7 +13,7 @@ public abstract class Forma {
         this.numLados = numLados;
     }
 
-    public abstract Float getArea();
-    public abstract Float getPerimeter();
+    public abstract Double getArea();
+    public abstract Double getPerimeter();
 
 }
