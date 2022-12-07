@@ -13,12 +13,12 @@ public class Triangulo extends Forma {
 
     @Override
     public Double getArea() {
-        return base * altura;
+        return this.base * this.altura;
     }
 
     @Override
     public Double getPerimeter() {
-        return base * getNumLados();
+        return this.base * getNumLados();
     }
 
     @Override

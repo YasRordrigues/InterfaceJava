@@ -6,7 +6,7 @@ public abstract class Forma {
     }
 
     public Integer getNumLados() {
-        return numLados;
+        return this.numLados;
     }
 
     public void setNumLados(Integer numLados) {

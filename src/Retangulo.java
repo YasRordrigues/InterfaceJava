@@ -11,12 +11,12 @@ public class Retangulo extends Forma implements Redimensionavel{
 
     @Override
     public Double getArea() {
-        return largura * altura;
+        return this.largura * this.altura;
     }
 
     @Override
     public Double getPerimeter() {
-        return 2 * (altura + largura);
+        return 2 * (this.altura + this.largura);
     }
 
     @Override
@@ -28,8 +28,8 @@ public class Retangulo extends Forma implements Redimensionavel{
     @Override
     public String toString() {
         return "Retangulo{" +
-                "largura=" + largura +
-                ", altura=" + altura +
+                "largura=" + this.largura +
+                ", altura=" + this.altura +
                 '}';
     }
 }
